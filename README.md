@@ -2,9 +2,9 @@
 
 This repo contains an aspnetcore + Vue.js 2 starter template (VS2017).The template is based
 on the [original updated starter template](https://github.com/MarkPieszak/aspnetcore-Vue-starter)
-which was based on the [original starter templates](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) (Angular, Knockout, React, Aurelia), which can be found [here](https://github.com/aspnet/JavaScriptServices/tree/dev/templates)
+which was based on the [original starter templates](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) (Angular, Knockout, React, Aurelia).
 
- 
+The application allows you to search for products across walmart using the Search, Lookup, and recommendation APIs.
 ---
 
 # Table of Contents
@@ -32,13 +32,13 @@ which was based on the [original starter templates](https://blogs.msdn.microsoft
  * nodejs > 6
  * VS2017
  * dotnet core 2.0
- * Important: Must have a walmart Open Api Key : https://developer.walmartlabs.com/
+ **Important**: Must have a walmart Open Api Key : https://developer.walmartlabs.com/
 
 # Installation / Getting Started:
  * Clone this repo
  * At the repo's root directory run `dotnet restore`
  * Restore Node dependencies by running `npm install`
- * Set your apiKey using the following command `dotnet user-secrets set "WalMartOpenAPIKey" "{APIKey}"
+ * Set your apiKey using the following command `dotnet user-secrets set "WalMartOpenAPIKey" "{APIKey}"`
  * Run unit test dotnet test
  * Run the application (`dotnet run` or `npm run dev`)
  
@@ -54,19 +54,13 @@ which was based on the [original starter templates](https://blogs.msdn.microsoft
 
 # To-Dos
 
-**[TODO]**
+**TODO**
  * Add photo carousel to product images
  * Add store to manage application state
  * UI Tests (Jest)
  * Refine server response to return only needed fields from json (faster loadtime on mobile and slower connections)
  * Scaling - investigate cacheing server and client side
  * Tweak CSS to fit more align with the brand I was going for.
-
-----
-
-# Found a Bug? Want to Contribute?
-
-Nothing's ever perfect, but please let me know by creating an issue (make sure there isn't an existing one about it already), and we'll try and work out a fix for it! If you have any good ideas, or want to contribute, feel free to either make an Issue with the Proposal, or just make a PR from your Fork.
 
 ----
 
