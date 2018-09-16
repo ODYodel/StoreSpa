@@ -1,4 +1,4 @@
-# Asp.NETCore 2.0 Vue 2 Starter - by [DevHelp.Online](http://www.DevHelp.Online)
+# Product Search Prototype - by [@MayoWelch](https://twitter.com/MayoWelch)
 
 This repo contains an aspnetcore + Vue.js 2 starter template (VS2017).The template is based
 on the [original updated starter template](https://github.com/MarkPieszak/aspnetcore-Vue-starter)
